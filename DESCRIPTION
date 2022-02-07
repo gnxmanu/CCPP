@@ -1,0 +1,10 @@
+Package: CCPP
+Type: Package
+Title: A Concentration Calculation and Plotting Package for Los Gatos Gas Analyzer 
+Version: 0.1.0
+Author: Manuel Ayala-Velazquez
+Maintainer: <ayal3298@uni-landau.de>
+Description: 
+License: Creative Commons Zero v1.0 Universal
+Encoding: UTF-8
+LazyData: true
