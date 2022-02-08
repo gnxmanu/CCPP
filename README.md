@@ -13,20 +13,23 @@ Built for an individual LGGA day/run with control in triplicates and four sample
 
 ### Installing
 ``` r
+install.packages("pacman")
+install.packages("devtools")
 devtools::install_github("gnxmanu/CCPP")
 ```
 <!-- or
 ``` r
-install.packages("githubinstall")
+install.packages("githubinstall") # https://cran.r-project.org/web/packages/githubinstall/vignettes/githubinstall.html
 library(githubinstall)
 githubinstall("CCPP")
 ```
+ -->
 or
 ``` r
+install.packages("pacman")
 install.packages("remotes")
 remotes::install_github("gnxmanu/CCPP")
 ```
- -->
 ### Executing program
 * User will be prompted for required .xsls and .txt files as well as for the directory to export products.
 * The function runs on predetermined parameters, though they can be specified out of default (see below).
