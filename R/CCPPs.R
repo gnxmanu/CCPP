@@ -1513,6 +1513,7 @@ UKL_LGGA <- function() {
   ## Print CSV ------------------
   AllCalculatedConcentrations_Ind_AllVariables
   setwd(mainDir)
+  AllCalculatedConcentrations_Ind_AllVariables<-data.frame(lapply(AllCalculatedConcentrations_Ind_AllVariables, as.character), stringsAsFactors=FALSE)
   write_excel_csv(AllCalculatedConcentrations_Ind_AllVariables, paste("CalculatedConcentrations", sep=".", "csv"), del = ";")
   return(AllCalculatedConcentrations_Ind_AllVariables)
 }
