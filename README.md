@@ -67,8 +67,8 @@ CCPPs()
 | `base_interval`           | Offset before injection time input by the user                             | `integer` | `20`     | No        |
 | `peak_interval`           | Offset before injection time input by the user                             | `integer` | `20`     | No        |
 | `V_sample`                | Injected sample volume [L] (V_s).                                          | `integer` | `100E-6` | No        |
-| `V_loop`                  | Loop Volume [L] (V_L). Equivalent to 92 mL.                                | `integer` | `92E-3`  | No        |
-| `offset_initial_final`    | Offset after injection at which the raw data will be considered. [seconds] | `integer` | `60`     | No        |
+| `V_loop`                  | Loop volume [L] (V_L). Equivalent to 92 mL.                                | `integer` | `92E-3`  | No        |
+| `offset_initial_final`    | Injection offset to discriminate raw data.                                 | `integer` | `60`     | No        |
 
 ## Authors
 **Manuel V.**
