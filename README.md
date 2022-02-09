@@ -13,21 +13,18 @@ Built for an individual LGGA day/run with control in triplicates and four sample
 
 ### Installing
 ``` r
-install.packages("pacman")
-install.packages("devtools")
+# install.packages("devtools")
 devtools::install_github("gnxmanu/CCPP")
 ```
 <!-- or
 ``` r
-install.packages("githubinstall") # https://cran.r-project.org/web/packages/githubinstall/vignettes/githubinstall.html
-library(githubinstall)
+# install.packages("githubinstall")
 githubinstall("CCPP")
 ```
  -->
 or
 ``` r
-install.packages("pacman")
-install.packages("remotes")
+# install.packages("remotes")
 remotes::install_github("gnxmanu/CCPP")
 ```
 ### Executing program
